@@ -1,3 +1,3 @@
 # ETL
 
-Documentação do projeto: [ETL] (https://github.io/alexandremedeiros/exemplo-etl/)
+Documentação do projeto: [ETL] (https://alexandremedeiros.github.io/exemplo-etl/)
