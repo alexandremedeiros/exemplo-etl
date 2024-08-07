@@ -1,0 +1,20 @@
+site_name: ETL
+theme:
+  name: material # or other theme
+  palette:
+    primary: green
+  language: en
+
+repo_name: "alexandremedeiros/exemplo-etl"
+repo_url: "https://github.com/alexandremedeiros/exemplo-etl"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python

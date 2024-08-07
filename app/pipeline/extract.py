@@ -1,7 +1,9 @@
-import pandas as pd
-import os #manipular arquivos e pastas
-import glob #listar arquivos
+import glob  # listar arquivos
+import os  # manipular arquivos e pastas
 from typing import List
+
+import pandas as pd
+
 
 def extract_from_excel(path: str) -> List[pd.DataFrame]:
     """
@@ -12,7 +14,7 @@ def extract_from_excel(path: str) -> List[pd.DataFrame]:
 
     return: lista de dataframes
     """
-    all_files = glob.glob(os.path.join(path, "*.xlsx"))
+    all_files = glob.glob(os.path.join(path, '*.xlsx'))
 
     data_frame_list = []
     for file in all_files:
